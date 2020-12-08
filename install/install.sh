@@ -9,3 +9,4 @@ bash install_bash-completion.sh
 bash install_vim.sh
 bash install_nodejs.sh
 bash install_mongodb.sh
+bash install_net_tools.sh
