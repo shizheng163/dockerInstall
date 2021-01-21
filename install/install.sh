@@ -10,3 +10,6 @@ bash install_vim.sh
 bash install_nodejs.sh
 bash install_mongodb.sh
 bash install_net_tools.sh
+bash install_python3.sh
+bash install_wget.sh
+bash install_elasticsearch.sh

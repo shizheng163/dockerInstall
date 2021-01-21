@@ -25,6 +25,7 @@ docker run -it -d \
           --name $NAME \
           -v "${VOLUME_PATH}:${VOLUME_DOCKER_PATH}" \
           -w "${VOLUME_DOCKER_PATH}" \
+          --net=host \
           $IMAGE
 
 if [ $? -ne 0 ];
