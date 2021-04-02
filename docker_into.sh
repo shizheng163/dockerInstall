@@ -1,4 +1,4 @@
 #!/bin/bash
 NAME="mywork"
 
-docker exec -it $NAME /bin/bash
+docker exec -u $USER -it $NAME /bin/bash
